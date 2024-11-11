@@ -13,8 +13,7 @@
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/feiyipei/clash.ini/main/Direct.list
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/feiyipei/clash.ini/main/ProxyLite.list
 ruleset=💬 OpenAi,https://raw.githubusercontent.com/feiyipei/clash.ini/main/AI.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Lan/Lan.list
 ruleset=🛑 知乎广告拦截,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.yaml
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
@@ -47,10 +46,11 @@ ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/mast
 ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
-ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 ruleset=🎯 全球直连,[]GEOSITE,CN
+ruleset=🚀 节点选择,[]GEOSITE,geolocation-!cn
 ruleset=🎯 全球直连,[]GEOIP,CN,no-resolve
 ruleset=🐟 漏网之鱼,[]FINAL
 ;设置规则标志位
@@ -90,6 +90,7 @@ custom_proxy_group=🇺🇲 美国节点`select`(美|波特兰|达拉斯|俄勒�
 custom_proxy_group=🇨🇳 台湾节点`select`(台|新北|彰化|TW|Taiwan)
 custom_proxy_group=🇸🇬 狮城节点`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=🇬🇧 英国节点`select`(英|英国|UK|BT|United Kingdom)
+custom_proxy_group=🔍 其他节点`select`(^(?!.*(美国|日本|香港|台湾|新加坡)).*)
 ;设置分组标志位
 
 enable_rule_generator=true
