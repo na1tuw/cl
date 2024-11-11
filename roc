@@ -90,7 +90,7 @@ custom_proxy_group=🇺🇲 美国节点`select`(美|波特兰|达拉斯|俄勒�
 custom_proxy_group=🇨🇳 台湾节点`select`(台|新北|彰化|TW|Taiwan)
 custom_proxy_group=🇸🇬 狮城节点`select`(新加坡|坡|狮城|SG|Singapore)
 custom_proxy_group=🇬🇧 英国节点`select`(英|英国|UK|BT|United Kingdom)
-custom_proxy_group=🔍 其他节点`select`(^(?!.*(美国|日本|香港|台湾|新加坡)).*)
+;custom_proxy_group=🔍 其他节点`select`(^(?!.*(美国|日本|香港|台湾|新加坡)).*)
 ;设置分组标志位
 
 enable_rule_generator=true
