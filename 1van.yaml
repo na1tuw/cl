@@ -73,7 +73,6 @@ dns:
   respect-rules: true
   enhanced-mode: fake-ip
   fake-ip-filter:
-  - "*"
   - "+.lan"
   - "+.local"
   - "+.market.xiaomi.com"
@@ -901,7 +900,6 @@ rule-providers:
 
 
   
-
 
 
 
