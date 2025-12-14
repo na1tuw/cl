@@ -1,1 +1,11 @@
-DOMAIN-SUFFIX,browserleaks.com
+# 代理补充列表
+
+# 域名后缀匹配
+DOMAIN-SUFFIX,browserleaks.com/dns
+
+# 域名关键字匹配
+
+
+
+
+
