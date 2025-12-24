@@ -1,0 +1,9 @@
+; 按F1开始持续上滑，按F2停止
+F1::
+  Loop {
+    Send {WheelUp} ; 发送滚轮上滑信号
+    Sleep 50 ; 控制滚动速度(毫秒)
+    If GetKeyState("F2", "P") ; 检测F2是否按下
+      Break ; 停止循环
+  }
+return
